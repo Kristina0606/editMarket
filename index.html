@@ -6,5 +6,193 @@
     <title>Клевер</title>
     <link rel="stylesheet" href="./sass/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="containe">
+      <header class="header">
+        <div class="header__logo">ЛОГОТИП</div>
+        <div class="header__info-container">
+          <div class="info-block">
+            <p>Продукты питания оптом</p>
+            <a href="tel:+7(910)323-10-54">+7 (910) 323-10-54</a>
+          </div>
+          <div class="info-block">
+            <p>Время работы</p>
+            <h3>c 8:00-17:00</h3>
+          </div>
+          <div class="info-block">
+            <p>Склад магазин в г. Мелитополь</p>
+            <a href="#">Адрес</a>
+            <p>Склад магазин в г. Москва</p>
+            <a href="#">Адрес</a>
+          </div>
+        </div>
+        <div class="header__login-button">
+          <button>Вход в личный кабинет</button>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__search-container">
+          <div class="catalog-container">
+            <button class="catalog-button">Каталог товаров</button>
+            <div class="catalog-links">
+              <a href="#" class="catalog-link"
+                ><img src="./images/image 126.svg" alt="link-item" />
+                <p class="link-description">Новинки</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image 127.svg" alt="link-item" />
+                <p class="link-description">Бакалея</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image 133.svg" alt="link-item" />
+                <p class="link-description">Вода / напитки</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image 132.svg" alt="link-item" />
+                <p class="link-description">Детское питание</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image.svg" alt="link-item" />
+                <p class="link-description">Кондитерские езделия</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image1.svg" alt="link-item" />
+                <p class="link-description">Мармелад CHI-WA-WA</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image 131.svg" alt="link-item" />
+                <p class="link-description">Чай / кофе</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image 130.svg" alt="link-item" />
+                <p class="link-description">Чипсы / снэки</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image 134.svg" alt="link-item" />
+                <p class="link-description">Энергетические напитки</p></a
+              >
+              <a href="#" class="catalog-link"
+                ><img src="./images/image2.svg" alt="link-item" />
+                <p class="link-description">Хиты продаж</p></a
+              >
+            </div>
+          </div>
+          <div class="search-input-container">
+            <form action="/search" class="search-form">
+              <input
+                type="text"
+                id="search-input"
+                name="search-input"
+                placeholder="Поиск по товарам"
+                class="search-input"
+              />
+              <button type="submit" class="search-button">
+                <img
+                  src="./images/image 83.svg"
+                  alt="search-Icon"
+                  class="search-icon"
+                />
+              </button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__block">
+          <h3>Наши контакты</h3>
+          <ul>
+            <li>
+              <a
+                href="https://maps.app.goo.gl/QK7qLFVj49M5aaT77"
+                target="_blank"
+                ><img src="./images/map-icon.svg" alt="map-icon" />
+                <p>город Москва</p></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://maps.app.goo.gl/zbKZy7BKBh66Ryax8"
+                target="_blank"
+                ><img src="./images/map-icon.svg" alt="map-icon" />
+                <p>город Мелитополь</p></a
+              >
+            </li>
+            <li>
+              <a href="mailto:edismarket@mail.ru"
+                ><img src="./images/letter-icon.svg" alt="letter-icon" />
+                <p>edismarket@mail.ru</p></a
+              >
+            </li>
+            <li>
+              <a href="tel:+7(910)323-10-54"
+                ><img src="./images/phone-icon.svg" alt="tel-icon" />
+                <p>+7 (910) 323-10-54</p></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h3>Покупателям</h3>
+          <ul>
+            <li class="link-to-users"><a href="#">О магазине</a></li>
+            <li class="link-to-users"><a href="#">Бренды</a></li>
+            <li class="link-to-users"><a href="#">Доставка</a></li>
+            <li class="link-to-users"><a href="#">Контакты</a></li>
+            <li class="link-to-users"><a href="#">Акции, скидки</a></li>
+            <li class="link-to-users"><a href="#">Качество товаров</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h3>Личный кабинет</h3>
+          <ul>
+            <li class="user-nav-link"><a href="#">Регистрация</a></li>
+            <li class="user-nav-link"><a href="#">Вход</a></li>
+            <li class="user-nav-link"><a href="#">Забыли пароль?</a></li>
+          </ul>
+        </div>
+        <div class="footer__block">
+          <h3>Подписка на новости</h3>
+          <input
+            type="text"
+            id="mail-input"
+            name="mail-input"
+            placeholder="Ваш e-mail"
+            class="mail-input"
+          />
+        </div>
+        <div class="footer__block">
+          <h3>Оплата</h3>
+          <a href="#" class="pay-links"
+            ><img src="./images/visa-icon.svg" alt="visa-icon" /></a
+          ><a href="#" class="pay-links"
+            ><img src="./images/mastercard-icon.svg" alt="mastercard-icon" /></a
+          ><a href="#" class="pay-links"
+            ><img src="./images/pay-icon.svg" alt="lay-icon" /></a
+          ><a href="#" class="pay-links"
+            ><img src="./images/mir-icon.svg" alt="mir-card-icon"
+          /></a>
+        </div>
+        <div class="footer__block">
+          <h3>Остались вопросы?</h3>
+          <form action="submit_form.php" method="post">
+            <input
+              type="text"
+              id="question"
+              name="question"
+              placeholder="Ваш вопрос?"
+              required
+            />
+            <input
+              placeholder="+7 (_)__ _ _"
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+            />
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
