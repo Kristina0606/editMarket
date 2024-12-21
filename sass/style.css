@@ -57,4 +57,100 @@ table {
   border-spacing: 0;
 }
 
+.header {
+  background: rgb(139, 170, 121);
+  height: 150px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.header .element:nth-child(1) {
+  margin-right: 81px;
+}
+.header .element:nth-child(2) {
+  margin-right: 55px;
+}
+.header .element:last-child {
+  margin-right: 0;
+}
+.header__logo {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.header__info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__info-container .element1:nth-child(1) {
+  margin-right: 14.5px;
+}
+.header__info-container .element1:nth-child(2) {
+  margin-right: 13.5px;
+}
+.header__info-container .element1:nth-child(3) {
+  margin-right: 13.5px;
+}
+.header__info-container .element1:nth-child(4) {
+  margin-right: 17.5px;
+}
+.header__info-container .element1:last-child {
+  margin-right: 0;
+}
+.header__info-container .info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.header__info-container .info-block .header-tel {
+  color: rgb(255, 255, 255);
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+.header__info-container .header-time {
+  color: rgb(255, 255, 255);
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+.header__info-container .header-adress {
+  color: rgb(255, 255, 255);
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.header .header-button {
+  width: 265px;
+  height: 52px;
+  box-sizing: border-box;
+  border: 1px solid rgb(231, 84, 47);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
 /*# sourceMappingURL=style.css.map */
