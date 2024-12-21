@@ -153,4 +153,103 @@ table {
   letter-spacing: 0%;
 }
 
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  background: rgb(250, 243, 221);
+}
+.main__search-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 29px;
+  gap: 20px;
+}
+.main__search-container .catalog-container {
+  padding-left: 71px;
+  display: flex;
+  gap: 70px;
+}
+.main__search-container .catalog-container .catalog-button {
+  color: rgb(255, 255, 255);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  width: 292px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(139, 170, 121);
+}
+.main__search-container .catalog-container .catalog-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 754px;
+}
+.main__search-container .catalog-container .catalog-links .catalog-link {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+.main__search-container .catalog-container .catalog-links .catalog-link .link-img {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(231, 84, 47);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+.main__search-container .search-input-container .search-form {
+  display: flex;
+  gap: 71px;
+  align-items: center;
+  margin-left: 428px;
+}
+.main__search-container .search-input-container .search-form .search-input {
+  width: 749px;
+  height: 42px;
+  box-sizing: border-box;
+  border: 0.25px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+.main__search-container .search-input-container .search-form .search-input::placeholder {
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  padding-top: 10px;
+  padding-left: 18px;
+}
+.main__search-container .search-input-container .search-form .search-button {
+  width: 79px;
+  height: 79px;
+  box-sizing: border-box;
+  border: 1px solid rgb(231, 84, 47);
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */

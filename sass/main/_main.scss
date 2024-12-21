@@ -1,0 +1,99 @@
+.main {
+  background: rgb(250, 243, 221);
+
+  &__search-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 29px;
+    gap: 20px;
+
+    .catalog-container {
+      padding-left: 71px;
+      display: flex;
+      gap: 70px;
+
+      .catalog-button {
+        color: rgb(255, 255, 255);
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0%;
+        width: 292px;
+        height: 56px;
+        border: none;
+        border-radius: 10px;
+        background: rgb(139, 170, 121);
+      }
+
+      .catalog-links {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 754px;
+
+        .catalog-link {
+          display: flex;
+          gap: 18px;
+          align-items: center;
+          justify-content: center;
+          color: rgb(0, 0, 0);
+          font-family: 'Noto Sans', sans-serif;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: 0%;
+          .link-img { 
+            padding: 5px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid rgb(231, 84, 47);
+            border-radius: 5px;
+            background: rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+
+    .search-input-container {
+      .search-form {
+        display: flex;
+        gap: 71px;
+        align-items: center;
+        margin-left: 428px;
+  
+        .search-input {
+          width: 749px;
+          height: 42px;
+          box-sizing: border-box;
+          border: 0.25px solid rgb(0, 0, 0);
+          border-radius: 5px;
+          background: rgb(255, 255, 255);
+        }
+    
+        .search-input::placeholder {
+          font-family: 'Noto Sans', sans-serif;
+          color: rgb(0, 0, 0);
+          font-size: 15px;
+          font-weight: 400; 
+          line-height: 20px;
+          letter-spacing: 0%;
+          padding-top: 10px;
+          padding-left: 18px;
+        }
+    
+        .search-button {
+          width: 79px;
+          height: 79px;
+          box-sizing: border-box;
+          border: 1px solid rgb(231, 84, 47);
+          background: rgb(255, 255, 255);
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
