@@ -1,32 +1,35 @@
 .footer {
-  background: rgb(139, 170, 121);
+  background: rgb(61, 75, 58);
+  color: rgb(255, 255, 255);
   padding-top: 23px;
   padding-bottom: 31px;
   display: flex;
-  justify-content: center;
+  padding-left: 190px;
 
   .footer-h3 {
   font-family: 'Noto-Sans', sans-serif;
-  color: rgb(0, 0, 0);
-  font-size: 16px; 
+  color: rgb(255, 255, 255);
+  font-size: 16px;
   font-weight: 400;
   line-height: 22px;
+  letter-spacing: 0%;
   }
 
   .contacts-a {
     display: flex;
-    gap: 7px;
+    gap: 9px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Noto-Sans', sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 16px;
+    letter-spacing: 0%;
   }
 
   .link-to-users a, .user-nav-link a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Noto-Sans', sans-serif;
     font-size: 12px;
     font-weight: 300;
@@ -39,6 +42,13 @@
     margin: 4px 0 32px 0;
     box-sizing: border-box;
     border: 0.25px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+  }
+
+  .pay-block {
+    box-sizing: border-box;
+    border: 0.1px solid rgb(0, 0, 0);
     border-radius: 5px;
     background: rgb(255, 255, 255);
   }
@@ -85,19 +95,27 @@
 }
 
 .footer .footer__block:nth-child(1) {
-  margin-right: 95px;
+  margin-right: 57px;
+}
+
+.footer .footer__block:nth-child(1) li {
+  margin: 7px 0 3px 0;
 }
 
 .footer .footer__block:nth-child(2) {
   margin-right: 95px;
 }
 
+.footer .footer__block:nth-child(2) li {
+  margin: 3px 0 3px 0;
+}
+
 .footer .footer__block:nth-child(3) {
-  margin-right: 92px;
+  margin-right: 94px;
 }
 
 .footer .footer__block:nth-child(4) {
-  margin-right: 55px;
+  margin-right: 39px;
 }
 
 .footer .footer__block:last-child {

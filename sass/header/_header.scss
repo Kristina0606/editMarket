@@ -1,5 +1,5 @@
 .header {
-  background: rgb(139, 170, 121);
+  background: rgb(61, 75, 58);
   height: 150px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -11,11 +11,12 @@
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
+  padding-left: 12px;
 
-  .element:nth-child(1) { margin-right: 81px; 
+  .element:nth-child(1) { margin-right: 52px; 
    } 
   
-  .element:nth-child(2) { margin-right: 55px; 
+  .element:nth-child(2) { margin-right: 51px; 
    } 
    
   .element:last-child { margin-right: 0; 
@@ -27,23 +28,23 @@
   }  
 
   &__info-container {
+    padding-bottom: 7px;
     display: flex;
     align-items: center;
-    justify-content: center;
   
-    .element1:nth-child(1) { margin-right: 14.5px;
+    .element1:nth-child(1) { margin-right: 23px;
     } 
    
-   .element1:nth-child(2) { margin-right: 13.5px; 
+   .element1:nth-child(2) { margin-right: 18px; 
     } 
     
-   .element1:nth-child(3) { margin-right: 13.5px; 
+   .element1:nth-child(3) { margin-right: 28px; 
     }
    
-   .element1:nth-child(4) { margin-right: 17.5px; 
+   .element1:nth-child(4) { margin-right: 15.5px; 
     }
 
-   .element1:last-child { margin-right: 0; 
+   .element1:last-child { margin-right: 0; padding-top: 7px;
     } 
 
     .info-block {
@@ -51,22 +52,44 @@
       flex-direction: column;
       gap: 24px;
       justify-content: center;
-      align-items: center;
+      align-items: start;
+
+      .header-products-p {
+        letter-spacing: 0;    
+      }
 
       .header-tel {
         color: rgb(255, 255, 255);
         font-family: 'Noto Sans', sans-serif;
         text-decoration: none;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0%;
+        font-size: 18px;
+        font-weight: 600;   
+        line-height: 25px;
+        letter-spacing: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .header-phone {
+        width: 22px;
+        height: 21px;
       }
 
     }
 
+    .info-block2 {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      justify-content: center;
+      align-items: center; 
+    } 
+
     .separator {
       display: block;
+      height: 109px;
     }
 
     .header-time {
@@ -79,6 +102,19 @@
         letter-spacing: 0%;
     }
 
+    .info-block3 {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      justify-content: center;
+      align-items: start; 
+      padding-bottom: 9px;
+    } 
+
+    .info-block3 a {
+      letter-spacing: 0.5px;
+    }
+
     .header-adress {
       color: rgb(255, 255, 255);
       font-family: 'Noto Sans', sans-serif;
@@ -88,27 +124,35 @@
       line-height: 22px;
       letter-spacing: 0%;
     }
+
+    .header-melitopol {
+      padding-bottom: 10px;
+    }
   }  
 
-  .header-button {
-    width: 265px;
-    height: 52px;
-    box-sizing: border-box;
-    border: 1px solid rgb(231, 84, 47);
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-    cursor: pointer;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 22px;
-    letter-spacing: 0%;
+  &__login-button {
+    padding-left: 22px;
+    padding-bottom: 9px;
+    .header-button {
+      width: 265px;
+      height: 52px;
+      box-sizing: border-box;
+      border: 1px solid rgb(231, 84, 47);
+      border-radius: 10px;
+      background: rgb(255, 255, 255);
+      cursor: pointer;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0.5px;
+    }
   }
 }
 
 @media (max-width: 1200px) {
   .header {
-    height: 250px;
+    height: 350px;
     flex-direction: column;
     gap: 10px;
 

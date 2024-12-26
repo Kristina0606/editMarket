@@ -9,12 +9,19 @@
   <body>
     <div class="container">
       <header class="header">
-        <a href="index.html" class="header__logo element">ЛОГОТИП</a>
+        <a href="index.html" class="header__logo element"
+          ><img src="./images/Vector.png" alt="logo-img"
+        /></a>
         <div class="header__info-container element">
           <div class="info-block element1">
-            <p>Продукты питания оптом</p>
-            <a class="header-tel" href="tel:+7(910)323-10-54"
-              >+7 (910) 323-10-54</a
+            <p class="header-products-p">Продукты питания оптом</p>
+            <a class="header-tel" href="tel:+7(990)150-84-44">
+              <img
+                src="./images/white-phone.png"
+                alt="phone-img"
+                class="header-phone"
+              />
+              <p>+7 (990) 150 - 84 - 44</p></a
             >
           </div>
           <img
@@ -22,8 +29,9 @@
             src="./images/Line 15.svg"
             alt="line-img"
           />
-          <div class="info-block element1">
+          <div class="info-block2 element1">
             <p>Время работы</p>
+            <p>Пн-Пт</p>
             <h3 class="header-time">c 8:00-17:00</h3>
           </div>
           <img
@@ -31,20 +39,13 @@
             src="./images/Line 15.svg"
             alt="line-img"
           />
-          <div class="element1">
-            <p>Склад магазин в г. Мелитополь</p>
+          <div class="info-block3 element1">
+            <p class="header-melitopol">Склад магазин в г. Мелитополь</p>
             <a
               class="header-adress"
               href="https://maps.app.goo.gl/VYHbN9hbfksqiUy29"
               target="_blank"
-              >Адрес</a
-            >
-            <p>Склад магазин в г. Москва</p>
-            <a
-              class="header-adress"
-              href="https://maps.app.goo.gl/sHCiHHUUuXFVXzBe6"
-              target="_blank"
-              >Адрес</a
+              >Адрес: ул. 8 Марта 43/2</a
             >
           </div>
         </div>
@@ -63,15 +64,15 @@
                   src="./images/image 126.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Новинки</p></a
+                <p class="link-description desc-1">Новинки</p></a
               >
-              <a href="#" class="catalog-link"
+              <a href="#" class="catalog-link bakaleya-block"
                 ><img
                   class="link-img"
                   src="./images/image 127.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Бакалея</p></a
+                <p class="link-description desc-2">Бакалея</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -79,7 +80,7 @@
                   src="./images/image 133.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Вода / напитки</p></a
+                <p class="link-description desc-3">Вода / напитки</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -87,7 +88,7 @@
                   src="./images/image 132.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Детское питание</p></a
+                <p class="link-description desc-4">Детское питание</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -95,7 +96,7 @@
                   src="./images/image.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Кондитерские езделия</p></a
+                <p class="link-description desc-5">Кондитерские езделия</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -103,7 +104,7 @@
                   src="./images/image1.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Мармелад CHI-WA-WA</p></a
+                <p class="link-description desc-6">Мармелад CHI-WA-WA</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -111,7 +112,7 @@
                   src="./images/image 131.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Чай / кофе</p></a
+                <p class="link-description desc-7">Чай / кофе</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -119,7 +120,7 @@
                   src="./images/image 130.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Чипсы / снэки</p></a
+                <p class="link-description desc-8">Чипсы / снэки</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -127,7 +128,7 @@
                   src="./images/image 134.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Энергетические напитки</p></a
+                <p class="link-description desc-9">Энергетические напитки</p></a
               >
               <a href="#" class="catalog-link"
                 ><img
@@ -135,8 +136,17 @@
                   src="./images/image2.svg"
                   alt="link-item"
                 />
-                <p class="link-description">Хиты продаж</p></a
+                <p class="link-description desc-10">Хиты продаж</p></a
               >
+            </div>
+            <div>
+              <button class="search-button">
+                <img
+                  src="./images/image 83.svg"
+                  alt="search-Icon"
+                  class="search-icon"
+                />
+              </button>
             </div>
           </div>
           <div class="search-input-container">
@@ -148,13 +158,6 @@
                 placeholder="Поиск по товарам"
                 class="search-input"
               />
-              <button type="submit" class="search-button">
-                <img
-                  src="./images/image 83.svg"
-                  alt="search-Icon"
-                  class="search-icon"
-                />
-              </button>
             </form>
           </div>
         </div>
@@ -166,31 +169,22 @@
             <li>
               <a
                 class="contacts-a"
-                href="https://maps.app.goo.gl/QK7qLFVj49M5aaT77"
-                target="_blank"
-                ><img src="./images/map-icon.svg" alt="map-icon" />
-                <p>город Москва</p></a
-              >
-            </li>
-            <li>
-              <a
-                class="contacts-a"
                 href="https://maps.app.goo.gl/zbKZy7BKBh66Ryax8"
                 target="_blank"
-                ><img src="./images/map-icon.svg" alt="map-icon" />
-                <p>город Мелитополь</p></a
+                ><img src="./images/white-location.svg" alt="map-icon" />
+                <p>г. Мелитополь, ул. 8 Марта 43/2</p></a
               >
             </li>
             <li>
               <a href="mailto:edismarket@mail.ru" class="contacts-a"
-                ><img src="./images/letter-icon.svg" alt="letter-icon" />
-                <p>edismarket@mail.ru</p></a
+                ><img src="./images/white-letter.svg" alt="letter-icon" />
+                <p>td.klever@mail.ru</p></a
               >
             </li>
             <li>
-              <a href="tel:+7(910)323-10-54" class="contacts-a"
-                ><img src="./images/phone-icon.svg" alt="tel-icon" />
-                <p>+7 (910) 323-10-54</p></a
+              <a href="tel:+7(990)150-84-44" class="contacts-a"
+                ><img src="./images/white-phone.png" alt="tel-icon" />
+                <p>+7 (990) 150 - 84 - 44</p></a
               >
             </li>
           </ul>
@@ -224,15 +218,19 @@
             class="mail-input"
           />
           <h3 class="footer-h3">Оплата</h3>
-          <a href="#" class="pay-links"
-            ><img src="./images/visa-icon.svg" alt="visa-icon" /></a
-          ><a href="#" class="pay-links"
-            ><img src="./images/mastercard-icon.svg" alt="mastercard-icon" /></a
-          ><a href="#" class="pay-links"
-            ><img src="./images/pay-icon.svg" alt="lay-icon" /></a
-          ><a href="#" class="pay-links"
-            ><img src="./images/mir-icon.svg" alt="mir-card-icon"
-          /></a>
+          <div class="pay-block">
+            <a href="#" class="pay-links"
+              ><img src="./images/visa-icon.svg" alt="visa-icon" /></a
+            ><a href="#" class="pay-links"
+              ><img
+                src="./images/mastercard-icon.svg"
+                alt="mastercard-icon" /></a
+            ><a href="#" class="pay-links"
+              ><img src="./images/pay-icon.svg" alt="lay-icon" /></a
+            ><a href="#" class="pay-links"
+              ><img src="./images/mir-icon.svg" alt="mir-card-icon"
+            /></a>
+          </div>
         </div>
         <div class="footer__block">
           <h3 class="footer-h3">Остались вопросы?</h3>
